@@ -1,0 +1,13 @@
+Pattern: hello|hi|hey
+Responses: Hello!,Hi there!
+
+Pattern: how are you\??
+Responses: I'm doing great, thanks!,Pretty good!
+
+Pattern: what is your name\??
+Responses: I'm a chatbot.,You can call me Chatbot.
+
+Pattern: hi|hello|g'day
+Responses: Hello! How can I help?,Hello.
+
+
