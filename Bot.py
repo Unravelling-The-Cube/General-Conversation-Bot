@@ -71,7 +71,7 @@ else:
                 query = reply[0]
                 response = splitingtool(reply[1], "|")
                 add_training_data(query, response)
-                add_training_data(query, options)
+               
                 print(f" New data trained Query - {query} , Responses - {response}")
             except:
                 message.channel.send("An error has occured, please send Y to try again.")
