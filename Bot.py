@@ -37,6 +37,7 @@ if  mode == "product" or mode == "2":
     print(f"{mode} mode intialised")
     # Initialize the Discord bot
     intents = discord.Intents.default()
+    intents.message_content = True
     bot = discord.Client(intents=intents)
 
 
@@ -56,6 +57,7 @@ if  mode == "product" or mode == "2":
 else:
     print(f"{mode} mode intialised")
     intents = discord.Intents.default()
+    intents.message_content = True
     bot = discord.Client(intents=intents)
     @bot.event
     async def on_message(message):
